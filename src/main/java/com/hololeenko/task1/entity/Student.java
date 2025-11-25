@@ -1,9 +1,6 @@
 package com.hololeenko.task1.entity;
 
-import java.util.Objects;
-
-public class Student {
-
+public abstract class Student {
     private long id;
 
     private String lastName;
@@ -45,24 +42,14 @@ public class Student {
         if (o == null || getClass() != o.getClass()) return false;
 
         Student student = (Student) o;
-        return id == student.id && age == student.age && Objects.equals(lastName, student.lastName);
+        return id == student.id && age == student.age && lastName.equals(student.lastName);
     }
 
     @Override
     public int hashCode() {
         int result = Long.hashCode(id);
-        result = 31 * result + Objects.hashCode(lastName);
+        result = 31 * result * (age + result);
         result = 31 * result + age;
         return result;
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("Student{");
-        sb.append("id=").append(id);
-        sb.append(", lastName='").append(lastName).append('\'');
-        sb.append(", age=").append(age);
-        sb.append('}');
-        return sb.toString();
     }
 }
