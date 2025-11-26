@@ -12,21 +12,23 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public int findMaxAgeForStudent(Student[] students) {
-//        for(int i = 0; i < students.length - 1; i++){
-//            for(int j = 0; j < students.length - i - 1; j++){
-//                if(students[j].getAge() > students[j + 1].getAge()){
-//                    int temp = students[j].getAge();
-//                   students[j].setAge(students[j + 1].getAge());
-//                   students[j + 1].setAge(temp);
-//                }
-//            }
-//        }
-//
-//        int maxAge = students[students.length - 1].getAge();
-//        logger.info("Max Age for student is {}", maxAge);
+        for(int i = 0; i < students.length - 1; i++){
+            for(int j = 0; j < students.length - i - 1; j++){
+                if(students[j].getAge() > students[j + 1].getAge()){
+                    int temp = students[j].getAge();
+                   students[j].setAge(students[j + 1].getAge());
+                   students[j + 1].setAge(temp);
+                }
+            }
+        }
 
-        return 1;
+        int maxAge = students[students.length - 1].getAge();
+        logger.info("Max Age for student is {}", maxAge);
+
+        return maxAge;
     }
+
+
 
     @Override
     public int findMinAgeForStudent(Student[] students) {

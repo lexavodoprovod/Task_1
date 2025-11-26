@@ -2,7 +2,7 @@ package com.hololeenko.task1.factory;
 
 import com.hololeenko.task1.entity.Student;
 
-public abstract class Factory {
+public abstract class StudentFactory {
 
     protected abstract Student createStudent(long id, String lastName, int age);
 

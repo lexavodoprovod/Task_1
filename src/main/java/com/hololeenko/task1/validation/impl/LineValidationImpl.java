@@ -14,20 +14,20 @@ import java.util.regex.Pattern;
 
 public class LineValidationImpl implements Validation {
 
-    private static  final String REGEX = "";
+    private static  final String REGEX = "^\\d+-\\w+-\\d+$";
 
     private final Logger logger = LogManager.getLogger(LineValidationImpl.class);
 
 
     @Override
-    public List<String> afterValidation(String[] parts) throws WrongFormatException{
+    public List<String> afterValidation(String[] parts){
         List<String> correctStudents = new ArrayList<>();
         for(String part : parts){
             if(part.matches(REGEX)){
                 correctStudents.add(part);
                 logger.info("Correct part: {}", part);
             }else {
-                throw new WrongFormatException("Wrong part " + part);
+                logger.error("Wrong part: {}", part);
             }
         }
 

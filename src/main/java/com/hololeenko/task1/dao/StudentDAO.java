@@ -6,5 +6,5 @@ import com.hololeenko.task1.entity.Student;
 import java.util.List;
 
 public interface StudentDAO {
-    List<Student> loadStudents();
+    Student[] loadStudents();
 }

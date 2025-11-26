@@ -2,7 +2,8 @@ package com.hololeenko.task1.dao.impl;
 
 import com.hololeenko.task1.dao.StudentDAO;
 import com.hololeenko.task1.entity.Student;
-import com.hololeenko.task1.factory.Factory;
+import com.hololeenko.task1.exception.WrongFormatException;
+import com.hololeenko.task1.factory.StudentFactory;
 import com.hololeenko.task1.factory.RegularStudentFactory;
 import com.hololeenko.task1.parser.Parser;
 import com.hololeenko.task1.parser.impl.LineParserImpl;
@@ -24,7 +25,7 @@ public class StudentDAOImpl implements StudentDAO {
     private Validation validation;
     private Parser lineParser;
     private Parser studentParser;
-    private Factory regStudFactory;
+    private StudentFactory regStudFactory;
 
     public StudentDAOImpl() {
         path = "src/main/resources/students.txt";
@@ -36,9 +37,10 @@ public class StudentDAOImpl implements StudentDAO {
     }
 
     @Override
-    public List<Student> loadStudents() {
+    public Student[] loadStudents() {
 
         List<Student> students = new ArrayList<>();
+        Student[] studentArray = new Student[0];
 
         try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String line;
@@ -65,12 +67,18 @@ public class StudentDAOImpl implements StudentDAO {
 
             }
 
+            studentArray  = new Student[students.size()];
+
+            for(int i = 0; i < students.size(); i++){
+                studentArray[i] = students.get(i);
+            }
+
         }catch (FileNotFoundException e) {
             e.printStackTrace();
         }catch (IOException e){
             e.printStackTrace();
         }
 
-        return students;
+        return studentArray;
     }
 }
