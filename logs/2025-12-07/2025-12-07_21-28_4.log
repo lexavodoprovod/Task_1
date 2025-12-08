@@ -1,0 +1,9 @@
+21:28:34.820 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+21:28:34.821 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+21:28:51.367 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+21:28:51.368 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+21:28:51.370 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+21:28:51.370 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+21:28:51.370 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+21:28:51.373 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[134, 1, 34, 12, 2]" created
+21:28:51.374 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: ja12;12;387 98

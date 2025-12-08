@@ -1,0 +1,9 @@
+01:54:12.464 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:6_Astapenko_19_АС-36
+01:54:12.465 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - 6_Astapenko_19_АС-36
+01:54:12.465 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:54:42.063 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+01:54:42.066 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:1_Hololeenko_23_АС-36
+01:54:42.066 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - ПРОВЕРКА 1_Hololeenko_23_АС-36
+01:54:42.067 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:54:42.070 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:2_Dovidenko_13_КИ-13
+01:54:42.070 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - ПРОВЕРКА 2_Dovidenko_13_КИ-13

@@ -1,0 +1,9 @@
+23:34:41.310 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 6 has been registered
+23:34:41.310 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 34
+00:38:05.061 [main] ERROR hololeenko.task1.dao.impl.StudentDaoImpl - students.txt (Не удается найти указанный файл)
+00:38:33.500 [main] ERROR hololeenko.task1.dao.impl.StudentDaoImpl - students.txt (Не удается найти указанный файл)
+00:40:03.666 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 1-Hololeenko-23
+00:40:03.667 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 2-Dovidenko-13
+00:40:03.671 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 3-Golobokin-21-
+00:40:03.671 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 4-Kovalev-34
+00:40:03.671 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 5-lebenok-20

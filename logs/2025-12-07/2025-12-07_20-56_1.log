@@ -1,0 +1,9 @@
+15:55:25.759 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:55:25.774 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:55:25.774 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:55:25.774 [main] ERROR com.hololeenko.task1.main.Application - Невозможно получить значение с массива так как он пустой или null
+20:55:13.159 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+20:55:39.936 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+20:56:06.635 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+20:56:06.636 [main] ERROR com.hololeenko.task1.main.Application - File does not exist
+20:56:24.213 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file

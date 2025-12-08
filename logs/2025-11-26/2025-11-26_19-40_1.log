@@ -1,0 +1,10 @@
+19:38:32.632 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 4-Kovalev-34
+19:38:32.639 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 5-lebenok-20
+19:38:32.639 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 6-Astapenko-19
+19:38:32.639 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - Student with id 1 has been registered
+19:38:32.639 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - Student with id 2 has been registered
+19:38:32.639 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - Student with id 4 has been registered
+19:38:32.639 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - Student with id 5 has been registered
+19:38:32.640 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - Student with id 6 has been registered
+19:40:21.528 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 1-Hololeenko-23
+19:40:21.529 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 2-Dovidenko-13

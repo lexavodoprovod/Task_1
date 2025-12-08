@@ -1,0 +1,10 @@
+19:33:09.432 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 1-Hololeenko-23
+19:33:09.440 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 2-Dovidenko-13
+19:33:09.440 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 3-Golobokin-21-
+19:33:09.440 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 4-Kovalev-34
+19:33:09.440 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 5-lebenok-20
+19:33:09.441 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 6-Astapenko-19
+19:37:48.240 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 1-Hololeenko-23
+19:37:48.244 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 2-Dovidenko-13
+19:37:48.244 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 3-Golobokin-21-
+19:37:48.244 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 4-Kovalev-34

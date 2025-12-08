@@ -1,0 +1,10 @@
+20:15:37.682 [main] ERROR hololeenko.task1.dao.impl.StudentDAOImpl - File not found
+20:20:42.234 [main] ERROR hololeenko.task1.dao.impl.StudentDAOImpl - File not found
+20:20:51.805 [main] INFO  hololeenko.task1.dao.impl.StudentDAOImpl - [1-Hololeenko-23, 2-Dovidenko-13, 3-Golobokin-21-, 4-Kovalev-34, 5-lebenok-20, 6-Astapenko-19]
+21:29:32.653 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 1-Hololeenko-23
+21:29:32.655 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 2-Dovidenko-13
+21:29:32.655 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 3-Golobokin-21-
+21:29:32.655 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 4-Kovalev-34
+21:29:32.655 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 5-lebenok-20
+21:29:32.655 [main] ERROR hololeenko.task1.validation.impl.LineValidationImpl - Wrong part: 6-Astapenko-19
+19:20:27.461 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 28

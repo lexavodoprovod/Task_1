@@ -1,0 +1,9 @@
+22:31:47.290 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "456"
+22:31:47.292 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[6, 3, 456, 87]"
+22:31:47.293 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "3"
+22:31:47.293 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[176, 28, 95]"
+22:31:47.293 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "176"
+22:31:47.293 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"
+22:31:47.293 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "28"
+22:32:06.256 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+22:32:06.258 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file

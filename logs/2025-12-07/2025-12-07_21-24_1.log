@@ -1,0 +1,10 @@
+21:23:33.195 [main] INFO  com.hololeenko.task1.main.Application - Line "{}" isn't valid
+21:23:33.196 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: -0-1 23_45
+21:23:33.196 [main] INFO  com.hololeenko.task1.main.Application - Line "{}" isn't valid
+21:23:33.197 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 6-3 456-87
+21:23:33.197 [main] INFO  com.hololeenko.task1.main.Application - Line "{}" isn't valid
+21:23:33.197 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+21:23:33.197 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+21:23:33.197 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - [176, 28, 95]
+21:23:33.197 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+21:23:33.197 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created

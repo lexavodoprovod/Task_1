@@ -1,0 +1,10 @@
+00:58:32.407 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+00:58:32.410 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 
+00:58:32.410 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+00:58:32.411 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 427       846;8-2
+00:58:32.411 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+00:58:32.411 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: -0-1 23_45
+00:58:32.411 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+00:58:32.411 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 6-3,456-87
+00:58:32.411 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "6-3,456-87"
+00:58:32.411 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "6-3,456-87" was parsed to "[6, 3, 456, 87]"

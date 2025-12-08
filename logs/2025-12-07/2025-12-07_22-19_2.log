@@ -1,0 +1,10 @@
+22:19:42.268 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[134, 1, 34, 12, 2]" created
+22:19:42.272 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: ja12;12;387 98
+22:19:42.272 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+22:19:42.272 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 
+22:19:42.272 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+22:19:42.272 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 427       846;8-2
+22:19:42.272 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+22:19:42.273 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: -0-1 23_45
+22:19:42.273 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+22:19:42.273 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 6-3,456-87

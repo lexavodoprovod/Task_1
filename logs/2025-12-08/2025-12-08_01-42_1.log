@@ -1,0 +1,9 @@
+00:59:33.434 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[6, 3, 456, 87]"
+00:59:33.435 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[3]"
+00:59:33.435 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+00:59:33.435 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - Array Size Validation Failed for findMax
+00:59:33.435 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+00:59:33.436 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"
+00:59:33.436 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[28]"
+01:42:26.241 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+01:42:26.242 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file

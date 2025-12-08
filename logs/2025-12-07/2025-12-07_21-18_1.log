@@ -1,0 +1,10 @@
+21:14:13.931 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134- 1-34-12-2
+21:14:13.934 [main] ERROR com.hololeenko.task1.main.Application - Line "{}" isn't valid
+21:16:43.559 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+21:16:43.561 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+21:16:43.563 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134- 1-34-12-2
+21:16:43.563 [main] ERROR com.hololeenko.task1.main.Application - Line "{}" isn't valid
+21:16:52.012 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+21:16:52.014 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+21:16:52.016 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+21:16:52.016 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"

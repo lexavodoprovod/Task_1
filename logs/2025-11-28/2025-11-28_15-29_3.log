@@ -1,0 +1,8 @@
+15:29:38.310 [main] INFO  hololeenko.task1.parser.impl.StudentParserImpl - Строка 2_Dovidenko_13_КИ-13 прошла парсинг
+15:29:38.318 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент c id: 2, lastName: Dovidenko, age: 13, courseName: КИ-13
+15:29:38.318 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 3_Golobokin_21_
+15:29:38.318 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка 3_Golobokin_21_ не прошла валидацию
+15:29:38.319 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 
+15:29:38.319 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка  не прошла валидацию
+15:29:38.319 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 4_Kovalev_34_АС-24
+15:29:38.320 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Валидация прошла успешно для строки 4_Kovalev_34_АС-24

@@ -1,0 +1,9 @@
+20:35:47.925 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+20:35:47.928 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:1_Hololeenko_23_АС-36
+20:35:47.929 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:2_Dovidenko_13_КИ-13
+20:35:47.929 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:3_Golobokin_21_
+20:35:47.929 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:4_Kovalev_34_АС-24
+20:35:47.929 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:5_lebenok_20_КФ-15
+20:35:47.930 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:6_Astapenko_19_АС-36
+20:40:38.903 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Student with id: 12, lastName: Hololeenko, age: 19 are created 
+20:40:38.905 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан

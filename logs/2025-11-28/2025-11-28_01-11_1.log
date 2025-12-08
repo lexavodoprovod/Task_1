@@ -1,0 +1,8 @@
+01:09:10.277 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:3_Golobokin_21_
+01:09:10.280 [main] INFO  com.hololeenko.task1.main.Application - Валидация для строки 3_Golobokin_21_ неудачна
+01:09:10.280 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:4_Kovalev_34_АС-24
+01:09:10.280 [main] INFO  com.hololeenko.task1.main.Application - Валидация для строки 4_Kovalev_34_АС-24 успешна
+01:09:10.280 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:5_lebenok_20_КФ-15
+01:09:10.281 [main] INFO  com.hololeenko.task1.main.Application - Валидация для строки 5_lebenok_20_КФ-15 неудачна
+01:09:10.281 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:6_Astapenko_19_АС-36
+01:09:10.281 [main] INFO  com.hololeenko.task1.main.Application - Валидация для строки 6_Astapenko_19_АС-36 успешна

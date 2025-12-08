@@ -1,0 +1,10 @@
+21:56:12.336 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+21:56:12.337 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+21:56:12.338 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+21:56:12.338 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "[176, 28, 95]" 
+21:56:12.338 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+21:56:12.338 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "null" 
+21:56:12.338 [main] ERROR com.hololeenko.task1.main.Application - Attempt to create empty or null array
+22:16:34.037 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+22:16:34.038 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+22:16:34.040 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2

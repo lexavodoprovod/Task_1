@@ -1,0 +1,9 @@
+22:52:02.245 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+22:52:02.249 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "null" 
+22:52:02.249 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 34, 12, 2]"
+22:52:02.250 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+22:52:02.250 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "null" 
+22:52:02.250 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[6, 3, 456, 87]"
+22:52:02.250 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "3"
+22:52:02.250 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "null" 
+22:52:02.250 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"

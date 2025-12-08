@@ -1,0 +1,8 @@
+15:39:06.578 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:39:06.589 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:39:06.590 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:39:06.590 [main] ERROR com.hololeenko.task1.main.Application - Невозможно получить значение с этого массива так как он пустой или null
+15:40:15.535 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:40:15.538 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:40:15.544 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:40:15.544 [main] ERROR com.hololeenko.task1.main.Application - Невозможно получить значение с массива так как он пустой или null

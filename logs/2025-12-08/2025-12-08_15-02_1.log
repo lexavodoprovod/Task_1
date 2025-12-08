@@ -1,0 +1,9 @@
+15:00:03.189 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "OptionalInt[8]"
+15:01:52.689 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:01:52.691 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[3, 7, 1, 8]"
+15:01:52.693 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "OptionalInt[8]"
+15:01:52.702 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:01:52.703 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[3, 7, 1, 8]"
+15:01:52.707 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[1]"
+15:02:14.301 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:02:14.304 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[3, 7, 1, 8]"

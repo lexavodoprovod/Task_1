@@ -1,0 +1,9 @@
+15:24:30.907 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:24:30.922 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 
+15:24:30.924 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка  не прошла валидацию
+15:24:30.926 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:24:41.822 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:24:41.828 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 
+15:24:41.834 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка  не прошла валидацию
+15:24:41.835 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:24:48.904 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан

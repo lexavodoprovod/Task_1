@@ -1,0 +1,9 @@
+00:58:32.412 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+00:58:32.412 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[6, 3, 456, 87]" created
+00:58:32.413 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+00:58:32.413 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+00:58:32.413 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+00:58:32.413 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+00:58:32.413 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+00:58:32.413 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+00:58:32.415 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - Array Size Validation Failed for findMax

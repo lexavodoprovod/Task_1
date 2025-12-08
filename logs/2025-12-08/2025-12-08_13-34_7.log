@@ -1,0 +1,9 @@
+13:34:49.638 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 6-3,456-87
+13:34:49.639 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "6-3,456-87"
+13:34:49.639 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "6-3,456-87" was parsed to "[6, 3, 456, 87]"
+13:34:49.639 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+13:34:49.639 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[6, 3, 456, 87]" created
+13:34:49.639 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+13:34:49.639 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+13:34:49.640 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+13:34:49.640 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 

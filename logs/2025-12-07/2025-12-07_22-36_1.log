@@ -1,0 +1,9 @@
+22:35:39.956 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[0, 0, 0, 0]"
+22:35:39.959 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "0"
+22:35:39.959 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"
+22:35:39.959 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "28"
+22:36:03.817 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+22:36:03.819 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+22:36:03.820 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+22:36:03.824 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+22:36:03.824 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"

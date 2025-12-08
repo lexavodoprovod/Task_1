@@ -1,0 +1,8 @@
+13:39:01.043 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[176, 28, 95]"
+13:39:01.044 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "OptionalInt[176]"
+13:39:01.044 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+13:39:01.044 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"
+13:39:01.045 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[28]"
+13:39:01.045 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[176, 28, 95]" the sum of the values is "299"
+13:39:01.045 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[176, 28, 95]" is "99"
+13:56:02.468 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file

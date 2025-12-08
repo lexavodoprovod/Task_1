@@ -1,0 +1,9 @@
+01:54:12.460 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:2_Dovidenko_13_КИ-13
+01:54:12.463 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - 2_Dovidenko_13_КИ-13
+01:54:12.463 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:54:12.463 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:3_Golobokin_21_
+01:54:12.464 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:
+01:54:12.464 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:4_Kovalev_34_АС-24
+01:54:12.464 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - 4_Kovalev_34_АС-24
+01:54:12.464 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:54:12.464 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:5_lebenok_20_КФ-15

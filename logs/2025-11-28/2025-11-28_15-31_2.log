@@ -1,0 +1,9 @@
+15:31:08.767 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:31:08.779 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 1
+15:31:24.002 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:31:24.005 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:31:24.007 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 1
+15:31:33.534 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+15:31:33.538 [main] INFO  hololeenko.task1.validation.impl.ArrayValidationImpl - Массив студентов пустой или null
+15:31:33.543 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 1
+15:31:43.973 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан

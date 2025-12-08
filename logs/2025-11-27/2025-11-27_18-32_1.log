@@ -1,0 +1,10 @@
+00:46:18.647 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 4-Kovalev-34
+00:46:18.649 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 5-lebenok-20
+00:46:18.649 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Correct part: 6-Astapenko-19
+00:46:18.649 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 1 has been registered
+00:46:18.650 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 2 has been registered
+00:46:18.650 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 4 has been registered
+00:46:18.650 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 5 has been registered
+00:46:18.653 [main] INFO  hololeenko.task1.dao.impl.StudentDaoImpl - Student with id 6 has been registered
+00:46:18.653 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 34
+18:32:01.504 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Student with id 12, lastName Hololeenko, age 19 are created 

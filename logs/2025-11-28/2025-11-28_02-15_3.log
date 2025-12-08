@@ -1,0 +1,7 @@
+02:15:21.716 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 
+02:15:21.718 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка  не прошла валидацию
+02:15:21.718 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 4_Kovalev_34_АС-24
+02:15:21.718 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Валидация прошла успешно для строки 4_Kovalev_34_АС-24
+02:15:21.718 [main] INFO  hololeenko.task1.parser.impl.StudentParserImpl - Прошел парсинг строки 4_Kovalev_34_АС-24
+02:15:21.718 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент c id: 4, lastName: Kovalev, age: 34, courseName: АС-24
+02:15:21.719 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 5_lebenok_20_КФ-15

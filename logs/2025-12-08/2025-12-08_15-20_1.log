@@ -1,0 +1,9 @@
+15:09:22.485 [main] INFO  hololeenko.task1.service.impl.SortServiceImpl - Array after bubble sort is "[1, 3, 7, 8]"
+15:09:22.500 [main] INFO  hololeenko.task1.service.impl.SortServiceImpl - Array after selection sort is "[1, 3, 7, 8]"
+15:18:21.438 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+15:18:21.439 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+15:18:21.440 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+15:19:02.734 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+15:19:02.736 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+15:19:02.736 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+15:20:27.851 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2

@@ -1,0 +1,8 @@
+15:03:01.526 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[1]"
+15:03:01.533 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[3, 7, 1, 8]" the sum of the values is "19"
+15:03:02.800 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:03:02.803 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[3, 7, 1, 8]"
+15:03:02.804 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "OptionalInt[8]"
+15:03:02.814 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:03:02.818 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[3, 7, 1, 8]"
+15:03:02.819 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[1]"

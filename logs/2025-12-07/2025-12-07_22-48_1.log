@@ -1,0 +1,9 @@
+22:40:41.716 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+22:40:41.719 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+22:40:41.720 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+22:40:41.720 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for "[176, 28, 95]" 
+22:40:41.720 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+22:40:41.720 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "null"
+22:48:33.805 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+22:48:33.807 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+22:48:33.808 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2

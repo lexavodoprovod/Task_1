@@ -1,0 +1,9 @@
+01:42:26.253 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+01:42:26.254 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+01:42:26.254 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+01:42:26.255 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+01:42:26.255 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - Array Size Validation Failed for findMax
+01:42:26.255 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+01:42:26.255 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 34, 12, 2]"
+01:42:26.256 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "OptionalInt[1]"
+01:42:26.256 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 

@@ -1,0 +1,7 @@
+15:28:41.856 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 5_lebenok_20_КФ-15
+15:28:41.861 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Строка 5_lebenok_20_КФ-15 не прошла валидацию
+15:28:41.861 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Попытка валидации строки: 6_Astapenko_19_АС-36
+15:28:41.861 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Валидация прошла успешно для строки 6_Astapenko_19_АС-36
+15:28:41.862 [main] INFO  hololeenko.task1.parser.impl.StudentParserImpl - Строка 6_Astapenko_19_АС-36 прошла парсинг
+15:28:41.862 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент c id: 6, lastName: Astapenko, age: 19, courseName: АС-36
+15:28:41.867 [main] INFO  hololeenko.task1.service.impl.StudentServiceImpl - Max Age for student is 1

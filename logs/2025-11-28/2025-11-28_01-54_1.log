@@ -1,0 +1,9 @@
+01:53:50.346 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:53:50.348 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:5_lebenok_20_КФ-15
+01:53:50.348 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:6_Astapenko_19_АС-36
+01:53:50.348 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - [Ljava.lang.String;@2e6a8155
+01:53:50.348 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
+01:54:12.453 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Файл успешно прочитан
+01:54:12.459 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Attempt to validate line:1_Hololeenko_23_АС-36
+01:54:12.460 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - 1_Hololeenko_23_АС-36
+01:54:12.460 [main] INFO  hololeenko.task1.factory.impl.StudentFactoryImpl - Успешно создался студент
