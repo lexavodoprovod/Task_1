@@ -1,8 +1,1 @@
-15:20:27.852 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
-15:20:27.856 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
-15:21:56.193 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
-15:21:56.194 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
-15:21:56.194 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "   134-1-34-12-2     " was parsed to "[134, 1, 34, 12, 2]"
-15:26:38.518 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34sdf-12-2
-15:34:01.110 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
-16:07:35.036 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+20:25:06.121 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Array with ID 4 does not exist

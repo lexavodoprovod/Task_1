@@ -35,7 +35,7 @@ public class CalculationServiceImpl implements CalculationService {
 
         LOGGER.debug(START_FIND_MAX, array);
         OptionalInt max = Arrays.stream(array).max();
-        LOGGER.debug(SUCCESS_FIND_MAX, max);
+        LOGGER.debug(SUCCESS_FIND_MAX, max.getAsInt());
 
         return max;
     }
@@ -50,7 +50,7 @@ public class CalculationServiceImpl implements CalculationService {
 
         LOGGER.debug(START_FIND_MIN, array);
         OptionalInt min = Arrays.stream(array).min();
-        LOGGER.info(SUCCESS_FIND_MIN, min);
+        LOGGER.info(SUCCESS_FIND_MIN, min.getAsInt());
 
         return min;
     }

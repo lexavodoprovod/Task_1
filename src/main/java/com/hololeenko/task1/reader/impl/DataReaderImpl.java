@@ -34,9 +34,9 @@ public class DataReaderImpl implements DataReader {
             data = Files.readAllLines(file);
             LOGGER.info(SUCCESS_READ_FILE);
         }catch (NoSuchFileException e) {
-            throw new WrongFormatException(FILE_NOT_EXIST);
+            throw new WrongFormatException(FILE_NOT_EXIST, e);
         } catch (IOException e) {
-            throw new WrongFormatException(OTHER_EXCEPTIONS);
+            throw new WrongFormatException(OTHER_EXCEPTIONS, e);
         }
 
         return data;
