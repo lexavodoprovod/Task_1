@@ -1,8 +1,11 @@
 package com.hololeenko.task1.entity;
 
+import com.hololeenko.task1.exception.WrongFormatException;
 import com.hololeenko.task1.increment.IncreaseArrayID;
 import com.hololeenko.task1.observer.CustomArrayObserver;
 import com.hololeenko.task1.observer.impl.CustomArrayObserverImpl;
+import com.hololeenko.task1.validation.NegativeNumberValidation;
+import com.hololeenko.task1.validation.impl.NegativeNumberValidationImpl;
 
 import java.util.Arrays;
 
@@ -35,13 +38,28 @@ public class CustomArray {
         return array.length;
     }
 
-    public int getElement(int index){
-        return array[index];
+    public int getElement(int index)throws WrongFormatException{
+        NegativeNumberValidation validation = new NegativeNumberValidationImpl();
+        if(validation.isValid(index)){
+            return array[index];
+        }else{
+            throw new WrongFormatException("Invalid index");
+        }
     }
 
-    public void setElement(int index, int value) {
-        array[index] = value;
-        notifyObservers();
+    public void setElement(int index, int value) throws WrongFormatException {
+        NegativeNumberValidation validation = new NegativeNumberValidationImpl();
+        if(validation.isValid(index) || !(index > array.length)){
+            array[index] = value;
+            notifyObservers();
+        }else{
+            throw new WrongFormatException("Invalid index");
+        }
+
+    }
+
+    public int getFirstElementOfArray() {
+        return array[0];
     }
 
     private void notifyObservers() {
@@ -63,9 +81,10 @@ public class CustomArray {
 
     @Override
     public String toString() {
-        String sb = "CustomArray{" + "ID=" + id +
-                ", array=" + Arrays.toString(array) +
-                '}';
-        return sb;
+        final StringBuilder sb = new StringBuilder("CustomArray{");
+        sb.append("ID=").append(id);
+        sb.append(", array=").append(Arrays.toString(array));
+        sb.append('}');
+        return sb.toString();
     }
 }

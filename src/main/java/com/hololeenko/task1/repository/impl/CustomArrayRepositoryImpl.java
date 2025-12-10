@@ -6,6 +6,8 @@ import com.hololeenko.task1.query.Query;
 import com.hololeenko.task1.query.impl.FindAllArraysQueryImpl;
 import com.hololeenko.task1.query.impl.FindByIDQueryImpl;
 import com.hololeenko.task1.repository.CustomArrayRepository;
+import com.hololeenko.task1.validation.IDValidation;
+import com.hololeenko.task1.validation.impl.IDValidationImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -27,6 +29,8 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
             "Get array with ID {} from repository";
     private static final String GET_FROM_QUERY=
             "Get arrays from query {}";
+    private static final String WRONG_ID=
+            "ID cannot be 0 or <0";
 
     private static CustomArrayRepositoryImpl repository;
 
@@ -39,6 +43,8 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
         }
         return repository;
     }
+
+
 
 
     @Override
@@ -60,43 +66,48 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
 
     @Override
     public void removeArrayByID(long id) throws WrongFormatException{
-        Query query = new FindAllArraysQueryImpl();
-        List<CustomArray> arraysInRepository = findByQuery(query);
-        List<CustomArray> existCustomArrays = new ArrayList<>();
+        IDValidation validation = new IDValidationImpl();
+        if(validation.isValid(id)){
+            Query query = new FindAllArraysQueryImpl();
+            List<CustomArray> arraysInRepository = findByQuery(query);
+            List<CustomArray> existCustomArrays = new ArrayList<>();
 
-        for (CustomArray arrayInRepository : arraysInRepository) {
-            if(arrayInRepository.getId() == id){
-                existCustomArrays.add(arrayInRepository);
+            for (CustomArray arrayInRepository : arraysInRepository) {
+                if(arrayInRepository.getId() == id){
+                    existCustomArrays.add(arrayInRepository);
+                }
             }
+
+            if(!existCustomArrays.isEmpty()){
+                CustomArray arrayForRemove = existCustomArrays.getFirst();
+                LOGGER.info(REMOVE_ARRAY_FROM_REPOSITORY, arrayForRemove.getArray(), arrayForRemove.getId());
+                customArrays.remove(arrayForRemove);
+            }else{
+                LOGGER.info(ARRAY_NOT_EXISTS, id);
+                throw new WrongFormatException("Array not exists");
+            }
+        }else {
+            LOGGER.info(WRONG_ID);
+            throw new WrongFormatException("Invalid id");
         }
 
-        if(!existCustomArrays.isEmpty()){
-            CustomArray arrayForRemove = existCustomArrays.getFirst();
-            LOGGER.info(REMOVE_ARRAY_FROM_REPOSITORY, arrayForRemove.getArray(), arrayForRemove.getId());
-            arraysInRepository.remove(arrayForRemove);
-        }else{
-            LOGGER.info(ARRAY_NOT_EXISTS, id);
-            throw new WrongFormatException("Array not exists");
-        }
 
 
-    }
-
-    @Override
-    public Optional<CustomArray> findArrayById(int id) {
-        LOGGER.info(GET_FROM_REPOSITORY, id);
-        return customArrays.stream()
-                .filter(array -> array.getId() == id)
-                .findFirst();
     }
 
 
     @Override
     public List<CustomArray> findByQuery(Query query) {
+        List<CustomArray> matchesArray = findByQuery(query);
+
+        for(CustomArray array : customArrays){
+            if(query.matches(array)){
+                matchesArray.add(array);
+            }
+        }
         LOGGER.info(GET_FROM_QUERY, query.getClass().getName());
-       return customArrays.stream()
-               .filter(query::matches)
-               .toList();
+
+        return matchesArray;
     }
 
     @Override

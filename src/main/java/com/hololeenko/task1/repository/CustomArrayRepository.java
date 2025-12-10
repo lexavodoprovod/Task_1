@@ -11,7 +11,6 @@ import java.util.Optional;
 public interface CustomArrayRepository {
     void saveArray(CustomArray array) throws WrongFormatException;
     void removeArrayByID(long id) throws WrongFormatException;
-    Optional<CustomArray> findArrayById(int id);
     List<CustomArray> findByQuery(Query query);
     List<CustomArray> sortArrays(Comparator<CustomArray> comparator);
 }

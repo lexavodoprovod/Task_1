@@ -78,7 +78,13 @@ public class Application {
             System.out.println("\n");
         }
 
-        Optional<CustomArray> optionalArray = repository.findArrayById(1);
+        Optional<CustomArray> optionalArray = Optional.empty();
+
+        try {
+            optionalArray = repository.findArrayById(1);
+        } catch (WrongFormatException e) {
+            LOGGER.error(e.getMessage());
+        }
         try {
             CustomArray array = optionalArray.orElseThrow(WrongFormatException::new);
             LOGGER.info("Array {} with ID {} was taken from repository",array.getArray(), array.getId());
@@ -110,8 +116,12 @@ public class Application {
         List<CustomArray> findAllArrays = repository.findByQuery(new FindAllArraysQueryImpl());
         LOGGER.info("Found all arrays {}", findAllArrays);
 
-
-
+        try {
+            repository.removeArrayByID(3);
+            LOGGER.info("all arrays:{}", repository.findByQuery(new FindAllArraysQueryImpl()));
+        } catch (WrongFormatException e) {
+            LOGGER.error("Not found array with ID {}", 3);
+        }
 
 
     }
