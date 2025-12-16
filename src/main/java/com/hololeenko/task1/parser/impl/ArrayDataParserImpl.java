@@ -14,23 +14,20 @@ public class ArrayDataParserImpl implements ArrayDataParser {
     private static final Logger LOGGER = LogManager.getLogger();
 
     private static final String ARRAY_REGEX = "[;,-]";
-    private static final String SUCCESS_VALIDATION = "Success validation for line \"{}\"";
-    private static final String PARSING_MESSAGE = "Line \"{}\" was parsed to \"{}\"";
-    private static final String EXCEPTION_MESSAGE = "Line isn't valid";
-
 
     @Override
     public int[] parse(String line) throws WrongFormatException {
 
-        String trimmedLine = line.strip();
+        String strippedLine = line.strip();
 
-        LineValidation validation = new LineValidationImpl();
         int[] resultArray;
 
-        if(validation.isValid(trimmedLine)){
-            LOGGER.info(SUCCESS_VALIDATION, trimmedLine);
+        LineValidation validation = new LineValidationImpl();
 
-            String[] parts = trimmedLine.split(ARRAY_REGEX);
+        if(validation.isValid(strippedLine)){
+            LOGGER.info("Success validation for line \"{}\"", strippedLine);
+
+            String[] parts = strippedLine.split(ARRAY_REGEX);
             resultArray = new int[parts.length];
 
             for(int i=0; i<parts.length; i++){
@@ -38,10 +35,10 @@ public class ArrayDataParserImpl implements ArrayDataParser {
             }
 
         }else{
-            throw  new WrongFormatException(EXCEPTION_MESSAGE);
+            throw  new WrongFormatException("Line isn't valid");
         }
 
-        LOGGER.info(PARSING_MESSAGE, line, Arrays.toString(resultArray));
+        LOGGER.info("Line \"{}\" was parsed to \"{}\"", line, Arrays.toString(resultArray));
 
         return resultArray;
     }

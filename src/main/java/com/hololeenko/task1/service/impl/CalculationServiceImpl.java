@@ -15,15 +15,6 @@ public class CalculationServiceImpl implements CalculationService {
 
     private final ArraySizeValidation sizeValidation = new ArraySizeValidationImpl();
 
-    private static final String START_FIND_MAX = "Starting the search for the largest element in \"{}\"";
-    private static final String SUCCESS_FIND_MAX = "The largest element is found \"{}\"";
-    private static final String START_FIND_MIN = "Starting the search for the smallest element in \"{}\"";
-    private static final String SUCCESS_FIND_MIN = "The smallest element is found \"{}\"";
-    private static final String SUCCESS_CALCULATE_SUM = "In this array \"{}\" the sum of the values is \"{}\"";
-    private static final String SUCCESS_CALCULATE_AVG = "The average value of this array \"{}\" is \"{}\"";
-
-
-
 
     @Override
     public OptionalInt findMax(int[] array) {
@@ -33,9 +24,9 @@ public class CalculationServiceImpl implements CalculationService {
             return OptionalInt.empty();
         }
 
-        LOGGER.debug(START_FIND_MAX, array);
+        LOGGER.debug("Starting the search for the largest element in \"{}\"", array);
         OptionalInt max = Arrays.stream(array).max();
-        LOGGER.debug(SUCCESS_FIND_MAX, max.getAsInt());
+        LOGGER.debug("The largest element is found \"{}\"", max.getAsInt());
 
         return max;
     }
@@ -48,9 +39,9 @@ public class CalculationServiceImpl implements CalculationService {
             return OptionalInt.empty();
         }
 
-        LOGGER.debug(START_FIND_MIN, array);
+        LOGGER.debug("Starting the search for the smallest element in \"{}\"", array);
         OptionalInt min = Arrays.stream(array).min();
-        LOGGER.info(SUCCESS_FIND_MIN, min.getAsInt());
+        LOGGER.info("The smallest element is found \"{}\"", min.getAsInt());
 
         return min;
     }
@@ -61,7 +52,7 @@ public class CalculationServiceImpl implements CalculationService {
         for (int value : array) {
             sum += value;
         }
-        LOGGER.info(SUCCESS_CALCULATE_SUM, array, sum);
+        LOGGER.info("In this array \"{}\" the sum of the values is \"{}\"", array, sum);
         return sum;
     }
 
@@ -72,7 +63,7 @@ public class CalculationServiceImpl implements CalculationService {
             sum += value;
         }
         int avg = sum/array.length;
-        LOGGER.info(SUCCESS_CALCULATE_AVG, array, avg);
+        LOGGER.info("The average value of this array \"{}\" is \"{}\"", array, avg);
 
         return avg;
     }

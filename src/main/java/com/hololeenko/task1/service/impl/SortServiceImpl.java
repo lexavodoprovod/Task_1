@@ -10,10 +10,6 @@ public class SortServiceImpl implements SortService {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    private static final String SUCCESS_BUBBLE_SORT = "Array after bubble sort is \"{}\"";
-    private static final String SUCCESS_SELECTION_SORT = "Array after selection sort is \"{}\"";
-
-
     @Override
     public int[] bubbleSort(int[] array) {
         for(int i = 0; i < array.length - 1; i++){
@@ -25,7 +21,7 @@ public class SortServiceImpl implements SortService {
                 }
             }
         }
-        LOGGER.info(SUCCESS_BUBBLE_SORT, Arrays.toString(array));
+        LOGGER.info( "Array after bubble sort is \"{}\"", Arrays.toString(array));
 
         return array;
     }
@@ -44,7 +40,7 @@ public class SortServiceImpl implements SortService {
             array[i] = array[minIndex];
             array[minIndex] = temp;
         }
-        LOGGER.info(SUCCESS_SELECTION_SORT, Arrays.toString(array));
+        LOGGER.info("Array after selection sort is \"{}\"", Arrays.toString(array));
 
         return array;
     }

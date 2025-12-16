@@ -17,15 +17,12 @@ public class CustomArrayObserverImpl implements CustomArrayObserver {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    private static final String ADD_DATA_TO_WAREHOUSE = "Adding data to warehouse for array \"{}\" with ID {}";
-    private static final String CHANGE_IN_ARRAY = "Observer detected changes in array \"{}\" with ID {}";
-
     private final CalculationService calculationService = new CalculationServiceImpl();
 
     @Override
     public void onCustomArrayChanged(CustomArray customArray) {
 
-        LOGGER.info(CHANGE_IN_ARRAY, customArray.getArray(), customArray.getId());
+        LOGGER.info("Observer detected changes in array \"{}\" with ID {}", customArray.getArray(), customArray.getId());
 
         OptionalInt optionalMax = calculationService.findMax(customArray.getArray());
         OptionalInt optionalMin = calculationService.findMin(customArray.getArray());
@@ -40,7 +37,7 @@ public class CustomArrayObserverImpl implements CustomArrayObserver {
 
         CustomArrayWarehouse warehouse = CustomArrayWarehouseImpl.getInstance();
 
-        LOGGER.info(ADD_DATA_TO_WAREHOUSE, customArray.getArray(), customArray.getId());
+        LOGGER.info("Adding data to warehouse for array \"{}\" with ID {}", customArray.getArray(), customArray.getId());
         warehouse.put(customArray.getId(), arrayData);
     }
 }

@@ -9,6 +9,7 @@ import com.hololeenko.task1.factory.CustomArrayFactory;
 import com.hololeenko.task1.factory.impl.CustomArrayFactoryImpl;
 import com.hololeenko.task1.parser.ArrayDataParser;
 import com.hololeenko.task1.parser.impl.ArrayDataParserImpl;
+import com.hololeenko.task1.query.Query;
 import com.hololeenko.task1.query.impl.FindAllArraysQueryImpl;
 import com.hololeenko.task1.query.impl.FindByElementQueryImpl;
 import com.hololeenko.task1.query.impl.FindByIDQueryImpl;
@@ -80,20 +81,20 @@ public class Application {
 
         Optional<CustomArray> optionalArray = Optional.empty();
 
-        try {
-            optionalArray = repository.findArrayById(1);
-        } catch (WrongFormatException e) {
-            LOGGER.error(e.getMessage());
-        }
-        try {
-            CustomArray array = optionalArray.orElseThrow(WrongFormatException::new);
-            LOGGER.info("Array {} with ID {} was taken from repository",array.getArray(), array.getId());
-
-            array.setElement(2,893);
-            array.setArray(new int[]{56, 5, 6, 78, 9, 2});
-        } catch (WrongFormatException e){
-            LOGGER.error("Not found array with ID {}", 1);
-        }
+//        try {
+//            optionalArray = repository.findArrayById(1);
+//        } catch (WrongFormatException e) {
+//            LOGGER.error(e.getMessage());
+//        }
+//        try {
+//            CustomArray array = optionalArray.orElseThrow(WrongFormatException::new);
+//            LOGGER.info("Array {} with ID {} was taken from repository",array.getArray(), array.getId());
+//
+//            array.setElement(2,893);
+//            array.setArray(new int[]{56, 5, 6, 78, 9, 2});
+//        } catch (WrongFormatException e){
+//            LOGGER.error("Not found array with ID {}", 1);
+//        }
 
         List<CustomArray> arrays = repository.findByQuery(new FindAllArraysQueryImpl());
         LOGGER.info("Found all arrays {}", arrays );
@@ -122,6 +123,7 @@ public class Application {
         } catch (WrongFormatException e) {
             LOGGER.error("Not found array with ID {}", 3);
         }
+
 
 
     }

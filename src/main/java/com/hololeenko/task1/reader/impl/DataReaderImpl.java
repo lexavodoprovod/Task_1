@@ -16,27 +16,21 @@ public class DataReaderImpl implements DataReader {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    private static final String START_READ_FILE = "Start reading file";
-    private static final String FILE_NOT_EXIST = "File does not exist";
-    private static final String OTHER_EXCEPTIONS = "Another exception with file";
-    private static final String SUCCESS_READ_FILE = "Successfully read file";
-
-
     @Override
     public List<String> readFileData(String path) throws WrongFormatException {
 
-        LOGGER.info(START_READ_FILE);
+        LOGGER.info("Start reading file");
 
         Path file = Paths.get(path);
         List<String> data;
 
         try {
             data = Files.readAllLines(file);
-            LOGGER.info(SUCCESS_READ_FILE);
+            LOGGER.info("Successfully read file");
         }catch (NoSuchFileException e) {
-            throw new WrongFormatException(FILE_NOT_EXIST, e);
+            throw new WrongFormatException("File does not exist", e);
         } catch (IOException e) {
-            throw new WrongFormatException(OTHER_EXCEPTIONS, e);
+            throw new WrongFormatException("Another exception with file", e);
         }
 
         return data;

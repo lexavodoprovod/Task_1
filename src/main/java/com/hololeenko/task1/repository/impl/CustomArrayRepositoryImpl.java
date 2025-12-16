@@ -17,21 +17,6 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    private static final String SAVE_ARRAY_TO_REPOSITORY=
-            "Save array {} with ID {} to the repository";
-    private static final String ARRAY_EXISTS=
-            "Array {} with ID {} already exists";
-    private static final String ARRAY_NOT_EXISTS=
-            "Array with ID {} does not exist";
-    private static final String REMOVE_ARRAY_FROM_REPOSITORY=
-            "Remove array {} with ID {} from repository";
-    private static final String GET_FROM_REPOSITORY=
-            "Get array with ID {} from repository";
-    private static final String GET_FROM_QUERY=
-            "Get arrays from query {}";
-    private static final String WRONG_ID=
-            "ID cannot be 0 or <0";
-
     private static CustomArrayRepositoryImpl repository;
 
     private final List<CustomArray>  customArrays = new ArrayList<>();
@@ -45,8 +30,6 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
     }
 
 
-
-
     @Override
     public void saveArray(CustomArray array) throws WrongFormatException {
         Query query = new FindAllArraysQueryImpl();
@@ -55,10 +38,10 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
                 .anyMatch(a -> Arrays.equals(a.getArray(), array.getArray()));
 
         if(!isExists){
-            LOGGER.info(SAVE_ARRAY_TO_REPOSITORY,array.getArray(), array.getId());
+            LOGGER.info("Save array {} with ID {} to the repository", array.getArray(), array.getId());
             customArrays.add(array);
         }else{
-            LOGGER.info(ARRAY_EXISTS,array.getArray(), array.getId());
+            LOGGER.info("Array {} with ID {} already exists", array.getArray(), array.getId());
             throw new WrongFormatException("Array already exists");
         }
 
@@ -80,14 +63,14 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
 
             if(!existCustomArrays.isEmpty()){
                 CustomArray arrayForRemove = existCustomArrays.getFirst();
-                LOGGER.info(REMOVE_ARRAY_FROM_REPOSITORY, arrayForRemove.getArray(), arrayForRemove.getId());
+                LOGGER.info("Remove array {} with ID {} from repository", arrayForRemove.getArray(), arrayForRemove.getId());
                 customArrays.remove(arrayForRemove);
             }else{
-                LOGGER.info(ARRAY_NOT_EXISTS, id);
+                LOGGER.info("Array with ID {} does not exist", id);
                 throw new WrongFormatException("Array not exists");
             }
         }else {
-            LOGGER.info(WRONG_ID);
+            LOGGER.info("ID cannot be 0 or <0");
             throw new WrongFormatException("Invalid id");
         }
 
@@ -105,7 +88,7 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
                 matchesArray.add(array);
             }
         }
-        LOGGER.info(GET_FROM_QUERY, query.getClass().getName());
+        LOGGER.info("Get arrays from query {}", query.getClass().getName());
 
         return matchesArray;
     }

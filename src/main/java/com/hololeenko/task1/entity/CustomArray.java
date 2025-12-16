@@ -69,7 +69,12 @@ public class CustomArray {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
+        if(this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         CustomArray array1 = (CustomArray) o;
         return id == array1.id &&  Arrays.equals(array, array1.array);
     }

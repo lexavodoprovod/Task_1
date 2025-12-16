@@ -1,1 +1,2 @@
-20:25:06.121 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Array with ID 4 does not exist
+12:31:58.251 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - ID cannot be 0 or <0
+12:31:58.254 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - ID cannot be 0 or <0
