@@ -74,8 +74,15 @@ public class Application {
             OptionalInt min = calculationService.findMin(array.getArray());
             int sum = calculationService.calculateSum(array.getArray());
             int avg = calculationService.calculateAverage(array.getArray());
+            LOGGER.info("Array before sort: \n " , array.getArray());
+
+
             int[] arrayAfterBubbleSort = sortService.bubbleSort(array.getArray());
+
             int[] arrayAfterSelectionSort = sortService.selectionSort(array.getArray());
+
+            int[] arrayAfterInsertionSort = sortService.insertionSort(array.getArray());
+
             System.out.println("\n");
         }
 

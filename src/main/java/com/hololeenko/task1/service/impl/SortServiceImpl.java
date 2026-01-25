@@ -58,4 +58,21 @@ public class SortServiceImpl implements SortService {
 
         return array;
     }
+
+    @Override
+    public int[] insertionSort(int[] array) {
+        for(int i = 1; i < array.length; i++){
+            int currentValue = array[i];
+
+            int j = i - 1;
+            while(j >= 0 && array[j] > currentValue){
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = currentValue;
+        }
+        LOGGER.info("Array after insertion sort is \"{}\"", Arrays.toString(array));
+
+        return array;
+    }
 }

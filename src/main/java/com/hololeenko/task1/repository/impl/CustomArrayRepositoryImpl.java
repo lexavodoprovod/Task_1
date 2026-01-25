@@ -81,7 +81,8 @@ public class CustomArrayRepositoryImpl implements CustomArrayRepository {
 
     @Override
     public List<CustomArray> findByQuery(Query query) {
-        List<CustomArray> matchesArray = findByQuery(query);
+//        List<CustomArray> matchesArray = findByQuery(query);
+        List<CustomArray> matchesArray = new ArrayList<>();
 
         for(CustomArray array : customArrays){
             if(query.matches(array)){
