@@ -1,0 +1,8 @@
+11:54:11.770 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+11:54:11.771 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:54:11.771 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [176, 28, 95] with ID 3 to the repository
+11:54:11.771 [main] INFO  com.hololeenko.task1.main.Application - Array [176, 28, 95] with ID 3 saved to the repository
+11:54:11.772 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:54:11.772 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:54:11.772 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 34, 12, 2]"
+11:54:11.773 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "134"

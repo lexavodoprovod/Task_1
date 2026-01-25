@@ -1,0 +1,7 @@
+16:50:32.650 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:50:32.652 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[56, 5, 6, 78, 9, 2]"
+16:50:32.652 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "2"
+16:50:32.652 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[56, 5, 6, 78, 9, 2]" the sum of the values is "156"
+16:50:32.652 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[56, 5, 6, 78, 9, 2]" is "26"
+16:50:32.652 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Adding data to warehouse for array "[56, 5, 6, 78, 9, 2]" with ID 1
+16:50:32.654 [main] INFO  com.hololeenko.task1.main.Application - Found all arrays [CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]

@@ -1,0 +1,7 @@
+18:51:03.124 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+18:51:03.130 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [1, 2, 3, 6] with ID 1 to the repository
+18:51:03.130 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+18:51:03.130 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [5, 6, 8, 3] with ID 2 to the repository
+18:51:03.130 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+18:51:03.131 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [1, 4, 2, 9] with ID 3 to the repository
+18:51:03.132 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl

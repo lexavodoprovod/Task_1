@@ -1,0 +1,9 @@
+16:36:53.242 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+16:36:53.250 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+16:36:53.250 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+16:36:53.251 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:36:53.251 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[134, 1, 34, 12, 2]" created
+16:36:53.252 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [134, 1, 34, 12, 2] with ID 1 to the repository
+16:36:53.252 [main] INFO  com.hololeenko.task1.main.Application - Array [134, 1, 34, 12, 2] with ID 1 saved to the repository
+16:36:53.253 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: ja12;12;387 98
+16:36:53.253 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid

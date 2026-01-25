@@ -1,0 +1,8 @@
+16:49:50.020 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Observer detected changes in array "[134, 1, 893, 12, 2]" with ID 1
+16:49:50.026 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:49:50.026 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 893, 12, 2]"
+16:49:50.026 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "893"
+16:49:50.026 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:49:50.026 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 893, 12, 2]"
+16:49:50.026 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+16:49:50.026 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 893, 12, 2]" the sum of the values is "1042"

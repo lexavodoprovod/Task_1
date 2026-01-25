@@ -1,0 +1,8 @@
+16:07:12.906 [main] INFO  com.hololeenko.task1.main.Application - Array [134, 1, 34, 12, 2] with ID 1 was taken from repository
+16:07:12.909 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Observer detected changes in array "[134, 1, 893, 12, 2]" with ID 1
+16:07:12.909 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:07:12.909 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 893, 12, 2]"
+16:07:12.909 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "893"
+16:07:12.909 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:07:12.910 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 893, 12, 2]"
+16:07:12.910 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"

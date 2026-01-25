@@ -1,0 +1,6 @@
+17:57:41.845 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[56, 5, 6, 78, 9, 2]" is "26"
+17:57:41.847 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Adding data to warehouse for array "[56, 5, 6, 78, 9, 2]" with ID 1
+17:57:41.847 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+17:57:41.849 [main] INFO  com.hololeenko.task1.main.Application - Found all arrays [CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]
+17:57:41.849 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by ID [CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]
+17:57:41.850 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by First Element [CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=3, array=[176, 28, 95]}]

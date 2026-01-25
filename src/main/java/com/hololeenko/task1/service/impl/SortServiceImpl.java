@@ -12,15 +12,29 @@ public class SortServiceImpl implements SortService {
 
     @Override
     public int[] bubbleSort(int[] array) {
-        for(int i = 0; i < array.length - 1; i++){
-            for(int j = 0; j < array.length - i - 1; j++){
-                if(array[j] > array[j + 1]){
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+
+        boolean isSorted = false;
+
+        while(!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    isSorted = false;
+                    int temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
                 }
             }
         }
+//        for(int i = 0; i < array.length - 1; i++){
+//            for(int j = 0; j < array.length - i - 1; j++){
+//                if(array[j] > array[j + 1]){
+//                    int temp = array[j];
+//                    array[j] = array[j + 1];
+//                    array[j + 1] = temp;
+//                }
+//            }
+//        }
         LOGGER.info( "Array after bubble sort is \"{}\"", Arrays.toString(array));
 
         return array;

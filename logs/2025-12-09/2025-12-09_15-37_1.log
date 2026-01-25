@@ -1,0 +1,9 @@
+15:36:29.702 [main] INFO  com.hololeenko.task1.main.Application - Array [134, 1, 34, 12, 2] with ID 1 was taken from repository
+15:37:32.616 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+15:37:32.618 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+15:37:32.619 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+15:37:32.619 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+15:37:32.620 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+15:37:32.620 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:37:32.623 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[134, 1, 34, 12, 2]" created
+15:37:32.624 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [134, 1, 34, 12, 2] with ID 1 to the repository

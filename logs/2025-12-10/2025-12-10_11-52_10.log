@@ -1,0 +1,7 @@
+11:52:38.391 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by First Element [CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=3, array=[176, 28, 95]}]
+11:52:38.394 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by Length [CustomArray{ID=3, array=[176, 28, 95]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}]
+11:52:38.394 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindByIDQueryImpl
+11:52:38.394 [main] INFO  com.hololeenko.task1.main.Application - Found arrays by ID [CustomArray{ID=3, array=[176, 28, 95]}]
+11:52:38.395 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindByElementQueryImpl
+11:52:38.395 [main] INFO  com.hololeenko.task1.main.Application - Found arrays by Elements []
+11:52:38.395 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl

@@ -1,0 +1,7 @@
+11:52:38.387 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "2"
+11:52:38.388 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[56, 5, 6, 78, 9, 2]" the sum of the values is "156"
+11:52:38.388 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[56, 5, 6, 78, 9, 2]" is "26"
+11:52:38.388 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Adding data to warehouse for array "[56, 5, 6, 78, 9, 2]" with ID 1
+11:52:38.388 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:52:38.390 [main] INFO  com.hololeenko.task1.main.Application - Found all arrays [CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]
+11:52:38.391 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by ID [CustomArray{ID=1, array=[56, 5, 6, 78, 9, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]

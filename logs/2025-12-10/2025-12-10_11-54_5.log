@@ -1,0 +1,9 @@
+11:54:11.779 [main] INFO  hololeenko.task1.service.impl.SortServiceImpl - Array after selection sort is "[3, 6, 87, 456]"
+11:54:11.780 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:54:11.780 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[176, 28, 95]"
+11:54:11.780 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "176"
+11:54:11.780 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:54:11.780 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[176, 28, 95]"
+11:54:11.780 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "28"
+11:54:11.780 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[176, 28, 95]" the sum of the values is "299"
+11:54:11.781 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[176, 28, 95]" is "99"

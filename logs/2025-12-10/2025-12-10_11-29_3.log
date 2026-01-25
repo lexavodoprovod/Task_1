@@ -1,0 +1,8 @@
+11:29:47.344 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+11:29:47.345 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:29:47.345 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+11:29:47.345 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:29:47.345 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [176, 28, 95] with ID 3 to the repository
+11:29:47.345 [main] INFO  com.hololeenko.task1.main.Application - Array [176, 28, 95] with ID 3 saved to the repository
+11:29:47.346 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:29:47.346 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 

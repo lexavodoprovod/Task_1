@@ -1,0 +1,8 @@
+11:52:38.375 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+11:52:38.376 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:52:38.376 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 34, 12, 2]"
+11:52:38.377 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "134"
+11:52:38.377 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:52:38.377 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 34, 12, 2]"
+11:52:38.378 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+11:52:38.378 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 34, 12, 2]" the sum of the values is "183"

@@ -1,0 +1,10 @@
+16:07:12.875 [main] INFO  com.hololeenko.task1.main.Application - Array [134, 1, 34, 12, 2] with ID 1 saved to the repository
+16:07:12.881 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: ja12;12;387 98
+16:07:12.881 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+16:07:12.881 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 
+16:07:12.881 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+16:07:12.881 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 427       846;8-2
+16:07:12.881 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+16:07:12.882 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: -0-1 23_45
+16:07:12.882 [main] INFO  com.hololeenko.task1.main.Application - Line isn't valid
+16:07:12.882 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 6-3,456-87

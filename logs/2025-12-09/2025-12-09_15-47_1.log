@@ -1,0 +1,9 @@
+15:43:29.683 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:43:29.685 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 893, 12, 2]"
+15:43:29.686 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+15:43:29.686 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 893, 12, 2]" the sum of the values is "1042"
+15:43:29.686 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[134, 1, 893, 12, 2]" is "208"
+15:43:29.686 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Adding data to warehouse for array "[134, 1, 893, 12, 2]" with ID 1
+15:47:21.929 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+15:47:21.931 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+15:47:21.933 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2

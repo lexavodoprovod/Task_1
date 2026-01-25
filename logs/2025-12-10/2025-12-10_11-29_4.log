@@ -1,0 +1,8 @@
+11:29:47.346 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 34, 12, 2]"
+11:29:47.348 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "134"
+11:29:47.348 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+11:29:47.348 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 34, 12, 2]"
+11:29:47.349 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+11:29:47.349 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 34, 12, 2]" the sum of the values is "183"
+11:29:47.349 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[134, 1, 34, 12, 2]" is "36"
+11:29:47.349 [main] INFO  hololeenko.task1.service.impl.SortServiceImpl - Array after bubble sort is "[1, 2, 12, 34, 134]"

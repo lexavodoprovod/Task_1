@@ -1,0 +1,8 @@
+12:30:48.996 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Array with ID 4 does not exist
+12:30:48.999 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - ID cannot be 0 or <0
+12:30:49.000 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - ID cannot be 0 or <0
+12:31:20.939 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+12:31:20.941 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [1, 2, 3, 6] with ID 1 to the repository
+12:31:20.941 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl
+12:31:20.941 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [5, 6, 8, 3] with ID 2 to the repository
+12:31:20.942 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Get arrays from query com.hololeenko.task1.query.impl.FindAllArraysQueryImpl

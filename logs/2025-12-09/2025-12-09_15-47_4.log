@@ -1,0 +1,9 @@
+15:47:21.946 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [6, 3, 456, 87] with ID 2 to the repository
+15:47:21.948 [main] INFO  com.hololeenko.task1.main.Application - Array [6, 3, 456, 87] with ID 2 saved to the repository
+15:47:21.948 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 176-28;95;
+15:47:21.948 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "176-28;95;"
+15:47:21.948 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "176-28;95;" was parsed to "[176, 28, 95]"
+15:47:21.948 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+15:47:21.949 [main] INFO  hololeenko.task1.factory.impl.CustomArrayFactoryImpl - Array "[176, 28, 95]" created
+15:47:21.949 [main] INFO  hololeenko.task1.repository.impl.CustomArrayRepositoryImpl - Save array [176, 28, 95] with ID 3 to the repository
+15:47:21.949 [main] INFO  com.hololeenko.task1.main.Application - Array [176, 28, 95] with ID 3 saved to the repository

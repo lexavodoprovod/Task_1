@@ -1,0 +1,8 @@
+15:52:03.733 [main] INFO  com.hololeenko.task1.main.Application - Found all arrays [CustomArray{id=1, array=[134, 1, 893, 12, 2]}, CustomArray{id=2, array=[6, 3, 456, 87]}, CustomArray{id=3, array=[176, 28, 95]}]
+15:52:03.736 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by ID [CustomArray{id=1, array=[134, 1, 893, 12, 2]}, CustomArray{id=2, array=[6, 3, 456, 87]}, CustomArray{id=3, array=[176, 28, 95]}]
+15:52:35.437 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Start reading file
+15:52:35.438 [main] INFO  hololeenko.task1.reader.impl.DataReaderImpl - Successfully read file
+15:52:35.440 [main] INFO  hololeenko.task1.validation.impl.LineValidationImpl - Line validation attempt: 134-1-34-12-2
+15:52:35.443 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Success validation for line "134-1-34-12-2"
+15:52:35.443 [main] INFO  hololeenko.task1.parser.impl.ArrayDataParserImpl - Line "134-1-34-12-2" was parsed to "[134, 1, 34, 12, 2]"
+15:52:35.444 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 

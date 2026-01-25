@@ -1,0 +1,6 @@
+15:59:35.961 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 893, 12, 2]" the sum of the values is "1042"
+15:59:35.963 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The average value of this array "[134, 1, 893, 12, 2]" is "208"
+15:59:35.964 [main] INFO  hololeenko.task1.observer.impl.CustomArrayObserverImpl - Adding data to warehouse for array "[134, 1, 893, 12, 2]" with ID 1
+15:59:35.965 [main] INFO  com.hololeenko.task1.main.Application - Found all arrays [CustomArray{ID=1, array=[134, 1, 893, 12, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]
+15:59:35.965 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by ID [CustomArray{ID=1, array=[134, 1, 893, 12, 2]}, CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=3, array=[176, 28, 95]}]
+15:59:35.966 [main] INFO  com.hololeenko.task1.main.Application - Sorted arrays by First Element [CustomArray{ID=2, array=[6, 3, 456, 87]}, CustomArray{ID=1, array=[134, 1, 893, 12, 2]}, CustomArray{ID=3, array=[176, 28, 95]}]

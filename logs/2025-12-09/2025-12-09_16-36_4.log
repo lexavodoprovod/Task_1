@@ -1,0 +1,8 @@
+16:36:53.264 [main] INFO  com.hololeenko.task1.main.Application - Array [176, 28, 95] with ID 3 saved to the repository
+16:36:53.268 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:36:53.268 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the largest element in "[134, 1, 34, 12, 2]"
+16:36:53.270 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - The largest element is found "134"
+16:36:53.270 [main] INFO  hololeenko.task1.validation.impl.ArraySizeValidationImpl - Size validation for array 
+16:36:53.270 [main] DEBUG hololeenko.task1.service.impl.CalculationServiceImpl - Starting the search for the smallest element in "[134, 1, 34, 12, 2]"
+16:36:53.271 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - The smallest element is found "1"
+16:36:53.271 [main] INFO  hololeenko.task1.service.impl.CalculationServiceImpl - In this array "[134, 1, 34, 12, 2]" the sum of the values is "183"
